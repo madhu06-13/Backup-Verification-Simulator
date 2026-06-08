@@ -1,0 +1,4 @@
+from agent.report.templates import SUCCESS_TEMPLATE, FAIL_TEMPLATE
+
+print("SUCCESS TEMPLATE LOADED:")
+print(SUCCESS_TEMPLATE)
