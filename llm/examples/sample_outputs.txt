@@ -1,0 +1,12 @@
+INPUT:
+{
+  "status":"FAIL",
+  "missing_rows":10
+}
+
+OUTPUT:
+{
+  "problem": "Backup failed due to missing rows and schema mismatch",
+  "cause": "ETL pipeline inconsistency and schema drift",
+  "solution": "Fix schema mapping and re-run backup"
+}
