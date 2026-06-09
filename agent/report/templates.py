@@ -1,4 +1,4 @@
-print("✅ TEMPLATES FILE LOADED")
+print(" TEMPLATES FILE LOADED")
 
 SUCCESS_TEMPLATE = """
 ==========================
