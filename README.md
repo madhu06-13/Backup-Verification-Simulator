@@ -156,3 +156,5 @@ Dashboard
 4. Depends on AI service availability.
 5. Proof-of-concept implementation.
 
+## Demo video link
+https://drive.google.com/drive/folders/1k1epGrT50wWkAcic1h5HpWzo6n3FO279?usp=drive_link
