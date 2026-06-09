@@ -4,12 +4,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+
+def _get_genai_client():
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        return None
+
+    return genai.Client(api_key=api_key)
 
 
 def get_ai_explanation(validation_result):
+
+    api_client = _get_genai_client()
+    if api_client is None:
+        return "AI explanation not available: GEMINI_API_KEY is not configured."
 
     try:
 
@@ -25,7 +33,7 @@ def get_ai_explanation(validation_result):
         - How to fix it
         """
 
-        response = client.models.generate_content(
+        response = api_client.models.generate_content(
             model="gemini-2.0-flash",
             contents=prompt
         )
