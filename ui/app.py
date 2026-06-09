@@ -11,12 +11,12 @@ import tempfile
 from agent.agent import run_agent
 
 st.set_page_config(
-    page_title="AI Backup Verification Agent",
+    page_title=" Backup Verification Simulator",
     page_icon="🤖",
     layout="wide"
 )
 
-st.title("🤖 AI Backup Verification Agent")
+st.title("🤖  Backup Verification Simulator")
 
 st.markdown(
     "Upload Original and Backup files to verify data integrity."
