@@ -158,3 +158,6 @@ Dashboard
 
 ## Demo video link
 https://drive.google.com/drive/folders/1k1epGrT50wWkAcic1h5HpWzo6n3FO279?usp=drive_link
+
+## Deploy link
+https://backup-verification-simulator-cal4xlbisyvhs2wv2jy8pa.streamlit.app/
